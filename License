@@ -1,28 +1,25 @@
-# Commercial Software License & Terms of Use
+# Lexeme V3 Ultra PRO: Limited Commercial License
 
 **Copyright (c) 2026 Shreeman Iyer / SKL Mindforge. All Rights Reserved.**
 
-This software and its associated data files (the "Tokenizer") are proprietary. By accessing or using this Tokenizer, you agree to the following terms:
+This software and its associated data files (the "Tokenizer") are provided under a proprietary, source-available license. By using this Tokenizer, you agree to the following terms:
 
-### 1. License Grant
-This is a source-available license. You are permitted to view the source code for educational and evaluation purposes. Use of this Tokenizer in a commercial environment or for-profit project is strictly prohibited without a valid Commercial Purchase Agreement from the author.
+### 1. Grant of License
+Permission is hereby granted to any person or organization to use this Tokenizer for both non-commercial and **commercial purposes**, free of charge, provided that the conditions in Section 2 and Section 3 are met.
 
-### 2. Restrictions
-* **No Redistribution:** You may not share, leak, host, or redistribute this software, the JSON model, or its source code to any third party or public repository.
-* **No Modification:** You may not modify, adapt, transform, or build upon this software. The "Bit-Perfect" architecture and internal watermarks must remain intact.
-* **No Reverse Engineering:** You may not attempt to decompile or extract the training methodology used to create the specific BPE merges contained within the JSON model.
-* **No Attribution Removal:** If a commercial license is granted, the "Shreeman_Iyer" and "SKL_Lexeme" identification tokens must remain in the vocabulary unless a "White-Label Buyout" agreement is specifically executed.
+### 2. Mandatory Attribution
+**Attribution is required.** Any product, service, or research paper using this Tokenizer must provide clear and visible credit to the author. 
+* **Required Text:** "Tokenization powered by Lexeme V3 Ultra PRO by Shreeman Iyer (SKL Mindforge)."
+* **Placement:** This credit must be included in the software's "About" section, documentation, or legal notices.
+* **Internal Integrity:** The "Shreeman_Iyer" and "SKL_Lexeme" identification tokens must remain in the vocabulary and must not be removed or altered.
 
-### 3. Commercial Use
-"Commercial Use" includes, but is not limited to:
-* Integrating the Tokenizer into a commercial LLM or API service.
-* Using the Tokenizer to process internal corporate data.
-* Using the Tokenizer in any product that generates revenue.
-
-To obtain a Commercial License ($1,200 USD for Perpetual Use), please contact the author directly via GitHub or SKL Mindforge official channels.
+### 3. Restrictions
+* **No Redistribution:** You may not host, mirror, or redistribute this source code or the JSON model file on any public or private repository, website, or package manager. Users must be directed to the original repository: `github.com/SKLMindforge/lexeme_tokenizer`.
+* **No Modification:** You may not modify, adapt, or create derivative works of this Tokenizer. The BPE merges and architecture must remain exactly as provided to ensure "Bit-Perfect" integrity.
+* **No Sublicensing:** You may not sell or sublicense this Tokenizer as a standalone product.
 
 ### 4. Termination
-Any violation of these terms automatically terminates your right to use the software.
+Failure to comply with the Attribution or No-Redistribution requirements results in the immediate and automatic termination of this license.
 
 ---
 **THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.**
