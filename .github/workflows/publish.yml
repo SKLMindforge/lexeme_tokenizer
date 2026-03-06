@@ -1,0 +1,29 @@
+name: Publish to PyPI
+on:
+  release:
+    types: [published] # This means: "Only run when I click 'Publish Release'"
+
+jobs:
+  pypi-publish:
+    name: Upload release to PyPI
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+    permissions:
+      id-token: write  # This allows the secure handshake with PyPI
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+          
+      - name: Build package
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install build
+          python -m build
+          
+      - name: Publish package
+        uses: pypa/gh-action-pypi-publish@release/v1
